@@ -1,0 +1,144 @@
+@media only screen and (max-width:1100px) {
+    .heading{
+        font-size: 82%;
+    }
+    h2{
+        font-size:200%;
+    }
+    h3{
+        font-size: 130%;
+    }
+    header nav ul{
+        font-size: 98%;
+        font-weight: 400;
+    }
+    .my-logo{
+        width: 220px;
+    }
+    .sec-skills{
+        gap: 80px;
+        grid-template-rows: 250px;
+    }
+    .sec-skills p{
+        font-size: 88%;
+    }
+    .sec-education{
+        gap: 80px;
+        grid-template-rows: 250px;
+    }
+    .sec-education p{
+        font-size: 88%;
+    }
+  
+}
+@media screen and (max-width:801px){
+    .my-logo{
+        width: 150px;
+        padding-top: 15px;
+    }
+    .heading{
+        font-size: 67%;
+    }
+    h2{
+        font-size:170%;
+    }
+    h3{
+        font-size: 110%;
+    }
+    header nav ul{
+        font-size: 94%;
+        font-weight: 400;
+    }
+    .sec-skills{
+        grid-template-columns: 0.8fr;
+        grid-template-rows: 200px 200px 200px;
+        justify-content: center;
+    }
+    .goals-bg p{
+        font-size: 100%;
+        font-weight: 400; 
+    }
+    .sec-education{
+        grid-template-columns: 0.8fr;
+        grid-template-rows: 200px 200px 200px;
+        justify-content: center;
+    }
+    footer p{
+        font-weight: 400;
+        font-size: 90%;
+    }
+    .bottom-nav{
+        font-size: 90%;
+    }
+    footer img{
+        width: 22px;
+        height: auto;
+    }
+}
+@media screen and (max-width:670px){
+
+    .row{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .my-logo{
+        width: 120px;
+        padding-top: 15px;
+    }
+    .heading{
+        font-size: 48%;
+        top: 37%;
+        left:20%;
+    }
+    h2{
+        font-size:140%;
+    }
+    h3{
+        font-size: 100%;
+    }
+   .nav-bar nav{
+    display: none;
+   }
+   .menu-icon{
+    display: inline-block;
+   }
+    .sec-skills p{
+        font-size: 90%;
+    }
+    .goals-bg p{
+        font-size: 90%;
+        font-weight: 400; 
+    }
+    .sec-education p{
+        font-size: 90%;
+    }
+    footer p{
+        font-weight: 400;
+        font-size: 78%;
+    }
+    .form-width{
+        width: 80%;
+    }
+    .bottom-nav{
+        font-size: 78%;
+    }
+    footer img{
+        width: 18px;
+        height: auto;
+    }
+}
+@media screen and (max-width:449px){
+    .heading{
+        font-size: 42%;
+        left: 18%;
+    }
+    .bottom-nav{
+        font-size: 70%;
+    }
+    footer li{
+        padding-right: 10px;
+    }
+    footer p{
+        font-size: 70%;
+    }
+}
