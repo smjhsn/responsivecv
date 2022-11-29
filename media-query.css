@@ -17,14 +17,14 @@
     }
     .sec-skills{
         gap: 80px;
-        grid-template-rows: 250px;
+        
     }
     .sec-skills p{
         font-size: 88%;
     }
     .sec-education{
         gap: 80px;
-        grid-template-rows: 250px;
+        
     }
     .sec-education p{
         font-size: 88%;
@@ -51,7 +51,7 @@
     }
     .sec-skills{
         grid-template-columns: 0.8fr;
-        grid-template-rows: 200px 200px 200px;
+        
         justify-content: center;
     }
     .goals-bg p{
@@ -60,7 +60,7 @@
     }
     .sec-education{
         grid-template-columns: 0.8fr;
-        grid-template-rows: 200px 200px 200px;
+        
         justify-content: center;
     }
     footer p{
