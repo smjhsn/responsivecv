@@ -120,7 +120,6 @@ nav li a:active{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
-    grid-template-rows: 200px;
 }
 .skills{
     padding:10px 20px;
@@ -155,7 +154,6 @@ nav li a:active{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
-    grid-template-rows: 200px;
 }
 .education{
     padding:10px 20px;
